@@ -1,9 +1,10 @@
 import "./App.css";
+import YO from "./assets/yo.jpeg";
 
 function App() {
   return (
     <>
-      <img src="/src/assets/yo.jpeg" alt="" />
+      <img src={YO} alt="" />
       <h1>Soy yo</h1>
     </>
   );
